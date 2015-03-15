@@ -1,0 +1,22 @@
+<p>
+  <strong>Student:</strong>
+  <%= @student.name %>
+</p>
+
+<p>
+  <strong>Desired Skills:</strong>
+  <%= @student.wanted_skills %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @student.email %>
+</p>
+
+<p>
+  <strong>Twitter:</strong>
+  <%= @student.twitter %>
+</p>
+
+<%= link_to 'Back', students_path %> |
+<%= link_to 'Edit', edit_student_path(@student) %>

@@ -1,0 +1,22 @@
+<p>
+  <strong>Mentor:</strong>
+  <%= @mentor.name %>
+</p>
+
+<p>
+  <strong>Skills:</strong>
+  <%= @mentor.skills %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @mentor.email %>
+</p>
+
+<p>
+  <strong>Twitter:</strong>
+  <%= @mentor.twitter %>
+</p>
+
+<%= link_to 'Back', mentors_path %> |
+<%= link_to 'Edit', edit_mentor_path(@mentor) %>
